@@ -1,9 +1,13 @@
+# My FastAPI Application
 
-    # My FastAPI Application
+This is a simple FastAPI application with a dummy API endpoint.
 
-    This is a simple FastAPI application with a dummy API endpoint.
+![Education Application Flowchart (Graphviz)](flowchart_graphviz.png)
+```mermaid
 
-    ![Education Flowchart](education_flowchart.png)
-
-    ![Education Flowchart](https://github.com/SoeRatch/Readme-testing/blob/main/education_flowchart.png?raw=true)
-    
+    graph TD
+        A[Start] --> B[Login Page]
+        B --> C[Dashboard]
+        C --> D[Courses]
+        D --> E[End]
+    ```

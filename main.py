@@ -1,4 +1,3 @@
-# main.py
 from fastapi import FastAPI
 from readme_service import update_readme
 
